@@ -2,7 +2,7 @@
 
 class AsantiSchema < GraphQL::Schema
   authorization :pundit
-  # mutation(Types::MutationType)
+  mutation(Types::MutationType)
   query(Types::QueryType)
 end
 
